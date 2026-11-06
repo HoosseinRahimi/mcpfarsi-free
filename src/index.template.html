@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="fa" dir="rtl" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>بازارچهٔ آزاد MCP — ۷۲ سرور، ۸۹۶ ابزار، بدون حساب</title>
+<meta name="description" content="نسخهٔ ایستا و رایگان بازارچهٔ MCP فارسی: ۷۲ سرور و ۸۹۶ ابزار برای وصل‌کردن Claude، Cursor و ChatGPT به سرویس‌های ایرانی. بدون حساب، بدون سرور واسط، کلیدها فقط در مرورگر شما.">
+<meta name="color-scheme" content="dark light">
+<style>
+/*{{FONTS}}*/
+/*{{CSS}}*/
+</style>
+</head>
+<body>
+
+<a class="skip" id="skip" href="#catalog">رفتن به فهرست سرورها</a>
+
+<header class="hdr">
+  <div class="wrap hdr-inner">
+    <a class="brand" href="#top">
+      <span class="brand-mark" aria-hidden="true">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+          <rect x="3" y="4" width="18" height="6" rx="2"/><rect x="3" y="14" width="18" height="6" rx="2"/>
+          <path d="M7 7h.01M7 17h.01"/>
+        </svg>
+      </span>
+      <span id="brand-name">بازارچهٔ آزاد MCP</span>
+      <span class="brand-sub" id="brand-sub">نسخهٔ ایستا</span>
+    </a>
+    <nav class="hdr-nav" aria-label="بخش‌ها">
+      <a id="nav-catalog" href="#catalog">سرورها</a>
+      <a id="nav-how" href="#how">نصب در سه قدم</a>
+      <a id="nav-compare" href="#compare">تفاوت با نسخهٔ میزبانی‌شده</a>
+    </nav>
+    <div class="hdr-tools">
+      <form class="search" id="search-form" role="search">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.2-3.2"/></svg>
+        <input id="search-input" type="search" dir="auto" placeholder="جست‌وجوی سرور یا ابزار…" aria-label="جست‌وجو در سرورها و ابزارها" autocomplete="off" spellcheck="false">
+        <span class="kbd" id="kbd-hint">Ctrl K</span>
+      </form>
+      <button class="langbtn" id="lang-btn" type="button">English</button>
+      <button class="iconbtn" id="theme-btn" type="button" aria-label="تغییر روشنایی"></button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+  <div class="wrap">
+    <section class="hero" data-od-id="hero" aria-labelledby="hero-h1">
+      <div class="hero-copy">
+        <span class="eyebrow"><span class="dot" aria-hidden="true"></span><span id="eyebrow-text">بدون حساب · بدون سرور واسط · بدون ارسال کلید</span></span>
+        <h1 id="hero-h1">همهٔ بازارچه، روی کامپیوتر خودتان.</h1>
+        <p class="sub" id="hero-sub">۷۲ سرور و ۸۹۶ ابزار که Claude، Cursor و ChatGPT را به دیجی‌کالا، دیوار، ترب و بقیهٔ سرویس‌های ایرانی وصل می‌کنند. یک فایل HTML که آفلاین باز می‌شود؛ کلیدها هیچ‌وقت از مرورگرتان بیرون نمی‌روند.</p>
+        <div class="ctarow">
+          <a class="btn btn-primary" id="cta-browse" href="#catalog">دیدن سرورها</a>
+          <button class="btn" id="cta-config" type="button">ساخت تنظیمات اتصال</button>
+        </div>
+        <div class="stats">
+          <div class="stat"><b id="n-servers">72</b><span id="stat-servers">سرور</span></div>
+          <div class="stat"><b id="n-tools">896</b><span id="stat-tools">ابزار</span></div>
+          <div class="stat"><b id="n-groups">13</b><span id="stat-cats">دسته</span></div>
+          <div class="stat"><b id="n-net">۰</b><span id="stat-net">درخواست شبکه</span></div>
+        </div>
+      </div>
+
+      <div class="console" role="img" aria-label="نمونهٔ نصب: uvx digikala-mcp، سپس پرسش از Claude">
+        <div class="console-bar">
+          <span class="dots" aria-hidden="true"><i></i><i></i><i></i></span>
+          <span class="lbl" id="console-label">نمونهٔ نصب</span>
+        </div>
+        <div class="console-body">
+          <div><span class="pr">$</span> <span class="path">~</span> <span class="cmd" id="console-cmd">uvx digikala-mcp</span><span class="caret" aria-hidden="true"></span></div>
+          <div class="fa-line"><span class="pr">→</span> <span class="ok" id="console-ok">۲۳ ابزار آماده شد؛ اتصال روی stdio برقرار است.</span></div>
+          <span class="ask fa-line" id="console-ask">حالا در Claude بپرسید: «ارزان‌ترین لپ‌تاپ با رم ۱۶ گیگ؟»</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="catalog" data-od-id="catalog" aria-labelledby="catalog-title">
+      <div class="sec-head">
+        <h2 id="catalog-title">فهرست سرورها</h2>
+        <p class="sec-sub" id="catalog-sub">روی هر کارت، ابزارها را باز کنید یا مستقیم به تنظیمات اتصال اضافه کنید.</p>
+      </div>
+
+      <div class="toolbar">
+        <div class="chips" id="chips" role="group" aria-label="دسته‌ها"></div>
+        <div class="sortwrap">
+          <label for="sort" id="sort-label">ترتیب</label>
+          <select id="sort">
+            <option value="default">پیشنهادی</option>
+            <option value="tools">بیشترین ابزار</option>
+            <option value="name">نام</option>
+          </select>
+        </div>
+        <span class="count" id="count" role="status" aria-live="polite">۷۲ سرور · ۸۹۶ ابزار</span>
+      </div>
+
+      <div class="grid" id="grid"></div>
+
+      <div class="empty" id="empty" hidden>
+        <h3 id="empty-title">چیزی پیدا نشد.</h3>
+        <p id="empty-body">املای دیگری را امتحان کنید، یا فیلتر دسته را بردارید.</p>
+        <button class="btn" id="empty-clear" type="button">پاک‌کردن جست‌وجو</button>
+      </div>
+    </section>
+
+    <hr class="rule">
+
+    <section class="section" id="how" data-od-id="how" aria-labelledby="how-title">
+      <div class="sec-head">
+        <h2 id="how-title">نصب در سه قدم</h2>
+        <p class="sec-sub" id="how-sub">یک بار نصب، بعد کافی است به فارسی بپرسید.</p>
+      </div>
+      <div class="steps">
+        <div class="step">
+          <span class="n">01</span>
+          <h3 id="how-1t">uv را نصب کنید</h3>
+          <p id="how-1b">ابزار اجرای بسته‌های پایتون؛ یک دستور، یک‌بار برای همیشه.</p>
+          <div class="cmdline" dir="ltr">pip install uv</div>
+        </div>
+        <div class="step">
+          <span class="n">02</span>
+          <h3 id="how-2t">دستور سرور را بچسبانید</h3>
+          <p id="how-2b">هر کارت یک دستور uvx دارد؛ همان را در تنظیمات برنامهٔ خود قرار دهید.</p>
+          <div class="cmdline" dir="ltr">uvx digikala-mcp</div>
+        </div>
+        <div class="step">
+          <span class="n">03</span>
+          <h3 id="how-3t">در برنامه وصل کنید</h3>
+          <p id="how-3b">از دکمهٔ «ساخت تنظیمات» فایل آمادهٔ Claude Desktop، Claude Code، Cursor یا VS Code را بگیرید.</p>
+          <div class="cmdline" dir="ltr">claude_desktop_config.json</div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="rule">
+
+    <section class="section" id="compare" data-od-id="compare" aria-labelledby="cmp-title">
+      <div class="sec-head">
+        <h2 id="cmp-title">این نسخه چه چیزی را عوض می‌کند</h2>
+        <p class="sec-sub" id="cmp-sub">همان فهرست، بدون واسطه. مقایسه بر اساس توضیح خودِ سایت میزبان دربارهٔ روتر است.</p>
+      </div>
+      <table class="cmp">
+        <thead>
+          <tr>
+            <th scope="col"></th>
+            <th scope="col" id="cmp-free-col">این نسخه (ایستا)</th>
+            <th scope="col" id="cmp-hosted-col">روتر میزبانی‌شده</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><th scope="row" id="cmp-r1">حساب کاربری</th><td class="free" id="cmp-r1-free"></td><td id="cmp-r1-hosted"></td></tr>
+          <tr><th scope="row" id="cmp-r2">محل اجرای سرور</th><td class="free" id="cmp-r2-free"></td><td id="cmp-r2-hosted"></td></tr>
+          <tr><th scope="row" id="cmp-r3">کلید API</th><td class="free" id="cmp-r3-free"></td><td id="cmp-r3-hosted"></td></tr>
+          <tr><th scope="row" id="cmp-r4">هزینه</th><td class="free" id="cmp-r4-free"></td><td id="cmp-r4-hosted"></td></tr>
+          <tr><th scope="row" id="cmp-r5">وابستگی به شبکه</th><td class="free" id="cmp-r5-free"></td><td id="cmp-r5-hosted"></td></tr>
+        </tbody>
+      </table>
+    </section>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <p id="footer-note">فهرست و توضیح ابزارها از مخزن iran-mcp خوانده شده است. سرورها کار نویسندگان خودشان‌اند؛ این صفحه فقط یک نمای ایستا و رایگان از همان دادهٔ عمومی است.</p>
+    <p><b id="footer-data">دادهٔ عمومی · ۷۲ سرور · ۸۹۶ ابزار</b> · <span id="footer-date"></span></p>
+    <p id="footer-built">ساخته‌شده به‌صورت ایستا؛ بدون تحلیل، بدون ردیابی.</p>
+
+    <p id="footer-scope">این نسخه فقط فهرست سرورها را پوشش می‌دهد؛ مهارت‌های نوشتاری (Skills) در آن نیستند.</p>
+  </div>
+</footer>
+
+<div class="dock" id="dock" aria-hidden="true" role="region" aria-label="تنظیمات در حال ساخت">
+  <div class="dock-inner">
+    <span class="dock-count" id="dock-label">۰ سرور انتخاب شد</span>
+    <button class="btn btn-primary" id="dock-build" type="button">ساخت تنظیمات</button>
+    <button class="clear" id="dock-clear" type="button">خالی‌کردن</button>
+  </div>
+</div>
+
+<dialog class="dlg" id="dlg" tabindex="-1" aria-labelledby="dlg-title">
+  <div class="dlg-head">
+    <div>
+      <h2 id="dlg-title">تنظیمات اتصال</h2>
+      <p id="dlg-sub">فقط روی کامپیوتر شما ساخته می‌شود. هیچ‌چیز ارسال یا ذخیره نمی‌شود.</p>
+    </div>
+    <button class="iconbtn" id="dlg-close" type="button" aria-label="بستن"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button>
+  </div>
+  <div class="dlg-body">
+    <p class="secret-note" id="dlg-empty">هنوز سروری انتخاب نکرده‌اید.</p>
+    <div id="dlg-out">
+      <p class="secret-note lbl-muted" id="dlg-client-lbl">برنامهٔ مقصد</p>
+      <div class="tabs" id="tabs" role="group" aria-label="برنامهٔ مقصد"></div>
+      <pre class="code" id="dlg-code" tabindex="0"></pre>
+      <div class="pathhint" id="dlg-path"></div>
+      <p class="secret-note" id="secret-note">جای «…» را با کلید خودتان پر کنید؛ کلید فقط در همین فایل می‌ماند.</p>
+      <div class="dlg-foot">
+        <button class="btn btn-primary" id="dlg-copy" type="button">کپی تنظیمات</button>
+        <button class="btn" id="dlg-dl" type="button">دانلود فایل</button>
+        <span class="dlg-status" id="dlg-status" role="status" aria-live="polite"></span>
+      </div>
+    </div>
+  </div>
+</dialog>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<noscript><p class="noscript-note">این صفحه برای جست‌وجو و ساخت تنظیمات به JavaScript نیاز دارد.</p></noscript>
+
+<script type="application/json" id="data-catalog">{{DATA_JSON}}</script>
+<script type="application/json" id="data-copy">{{COPY_JSON}}</script>
+<script>
+/*{{JS}}*/
+</script>
+</body>
+</html>

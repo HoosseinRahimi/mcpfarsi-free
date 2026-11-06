@@ -1,0 +1,499 @@
+{
+  "_note": "Persian copy layer for the free MCPfarsi mirror. Descriptions are faithful, short paraphrases of each server's own English summary in servers.json.",
+  "ui": {
+    "fa": {
+      "brand": "بازارچهٔ آزاد MCP",
+      "brand_sub": "نسخهٔ ایستا",
+      "skip": "رفتن به فهرست سرورها",
+      "nav_catalog": "سرورها",
+      "nav_how": "نصب در سه قدم",
+      "nav_compare": "تفاوت با نسخهٔ میزبانی‌شده",
+      "search_ph": "جست‌وجوی سرور یا ابزار…",
+      "search_label": "جست‌وجو در سرورها و ابزارها",
+      "search_kbd": "Ctrl",
+      "theme": "تغییر روشنایی",
+      "lang": "English",
+      "hero_eyebrow": "بدون حساب · بدون سرور واسط · بدون ارسال کلید",
+      "hero_h1": "همهٔ بازارچه، روی کامپیوتر خودتان.",
+      "hero_sub": "۷۲ سرور و ۸۹۶ ابزار که Claude، Cursor و بقیهٔ دستیارهای کدنویسی را به دیجی‌کالا، دیوار، ترب و سرویس‌های ایرانی وصل می‌کنند. یک فایل HTML که آفلاین باز می‌شود؛ کلیدها هیچ‌وقت از مرورگرتان بیرون نمی‌روند.",
+      "cta_browse": "دیدن سرورها",
+      "cta_config": "ساخت تنظیمات اتصال",
+      "stat_servers": "سرور",
+      "stat_tools": "ابزار",
+      "stat_cats": "دسته",
+      "stat_network": "درخواست شبکه",
+      "console_label": "نمونهٔ نصب",
+      "console_cmd": "uvx digikala-mcp",
+      "console_ok": "۲۳ ابزار آماده شد؛ اتصال روی stdio برقرار است.",
+      "console_ask": "حالا در Claude بپرسید: «ارزان‌ترین لپ‌تاپ با رم ۱۶ گیگ؟»",
+      "catalog_title": "فهرست سرورها",
+      "catalog_sub": "روی هر کارت، ابزارها را باز کنید یا مستقیم به تنظیمات اتصال اضافه کنید.",
+      "filter_all": "همه",
+      "sort_label": "ترتیب",
+      "sort_default": "پیشنهادی",
+      "sort_tools": "بیشترین ابزار",
+      "sort_name": "نام",
+      "count": "{n} سرور · {t} ابزار",
+      "count_filtered": "{n} سرور از {all} · {t} ابزار",
+      "empty_title": "چیزی با «{q}» پیدا نشد.",
+      "empty_body": "املای دیگری را امتحان کنید، یا فیلتر دسته را بردارید. جست‌وجو در نام سرور، نام بسته، توضیح و نام ابزارها انجام می‌شود.",
+      "empty_clear": "پاک‌کردن جست‌وجو",
+      "tools_btn": "{n} ابزار",
+      "tools_hide": "بستن ابزارها",
+      "add_btn": "افزودن به تنظیمات",
+      "added_btn": "در تنظیمات",
+      "install_copy": "کپی دستور نصب",
+      "copied": "کپی شد",
+      "env_need": "کلید لازم دارد: {names}",
+      "env_optional": "متغیر اختیاری: {names}",
+      "env_none": "بدون کلید و متغیر",
+      "readonly_yes": "فقط‌خواندنی",
+      "readonly_no": "نوشتن دارد",
+      "open_repo": "مخزن در گیت‌هاب",
+      "open_site": "سایت سرویس",
+      "hosted_tag": "میزبانی‌شده",
+      "dock_count": "{n} سرور انتخاب شد",
+      "dock_build": "ساخت تنظیمات",
+      "dock_clear": "خالی‌کردن",
+      "dialog_title": "تنظیمات اتصال",
+      "dialog_sub": "فقط روی کامپیوتر شما ساخته می‌شود؛ تنظیمات جایی فرستاده یا ذخیره نمی‌شود. تنها انتخاب‌های شما در همین مرورگر می‌ماند.",
+      "dialog_client": "برنامهٔ مقصد",
+      "dialog_copy": "کپی تنظیمات",
+      "dialog_download": "دانلود فایل",
+      "dialog_path": "مسیر ذخیره",
+      "dialog_secret": "جای <YOUR_KEY> را با کلید خودتان پر کنید؛ کلید فقط در همین فایل می‌ماند.",
+      "dialog_empty": "هنوز سروری انتخاب نکرده‌اید. از فهرست، سرورها را اضافه کنید.",
+      "how_title": "نصب در سه قدم",
+      "how_sub": "یک بار نصب، بعد کافی است به فارسی بپرسید.",
+      "how_1_t": "uv را نصب کنید",
+      "how_1_b": "ابزار اجرای بسته‌های پایتون؛ یک دستور، یک‌بار برای همیشه.",
+      "how_2_t": "دستور سرور را بچسبانید",
+      "how_2_b": "هر کارت نصب‌شدنی یک دستور uvx دارد؛ دو سرور میزبانی‌شده آدرس مستقیم دارند و روی کامپیوتر نصب نمی‌شوند.",
+      "how_3_t": "در برنامه وصل کنید",
+      "how_3_b": "از دکمهٔ «ساخت تنظیمات» فایل آمادهٔ Claude Desktop، Claude Code، Cursor، VS Code یا Windsurf را بگیرید.",
+      "compare_title": "این نسخه چه چیزی را عوض می‌کند",
+      "compare_sub": "همان فهرست، بدون واسطه. مقایسه بر اساس توضیح خودِ سایت میزبان دربارهٔ روتر است.",
+      "compare_col_free": "این نسخه (ایستا)",
+      "compare_col_hosted": "روتر میزبانی‌شده",
+      "compare_r1": "حساب کاربری",
+      "compare_r1_free": "لازم نیست",
+      "compare_r1_hosted": "لازم است",
+      "compare_r2": "محل اجرای سرور",
+      "compare_r2_free": "روی کامپیوتر شما (uvx)",
+      "compare_r2_hosted": "روی سرور واسط",
+      "compare_r3": "کلید API",
+      "compare_r3_free": "فقط در مرورگر شما داخل دستور می‌نشیند",
+      "compare_r3_hosted": "رمزگذاری‌شده در حساب شما ذخیره می‌شود",
+      "compare_r4": "هزینه",
+      "compare_r4_free": "رایگان و قابل بازبینی",
+      "compare_r4_hosted": "طبق شرایط سایت میزبان",
+      "compare_r5": "وابستگی به شبکه",
+      "compare_r5_free": "فقط برای نصب و تماس سرور با سرویس",
+      "compare_r5_hosted": "همیشه به روتر وابسته",
+      "footer_note": "فهرست و توضیح ابزارها از مخزن iran-mcp خوانده شده است. سرورها کار نویسندگان خودشان‌اند؛ این صفحه فقط یک نمای ایستا و رایگان از همان دادهٔ عمومی است.",
+      "footer_data": "دادهٔ عمومی · ۷۲ سرور · ۸۹۶ ابزار",
+      "footer_built": "ساخته‌شده به‌صورت ایستا؛ بدون تحلیل، بدون ردیابی.",
+      "dialog_close": "بستن",
+      "toast_copied": "در کلیپ‌بورد کپی شد",
+      "toast_downloaded": "فایل تنظیمات دانلود شد",
+      "no_js": "این صفحه برای جست‌وجو و ساخت تنظیمات به JavaScript نیاز دارد.",
+      "footer_scope": "این نسخه فقط فهرست سرورها را پوشش می‌دهد؛ مهارت‌های نوشتاری (Skills) در آن نیستند.",
+      "remote_copy": "کپی آدرس سرور",
+      "remote_only": "سرور میزبانی‌شده؛ نصب محلی ندارد",
+      "auth_label": "احراز هویت",
+      "dialog_path_menu": "مسیر در برنامه"
+    },
+    "en": {
+      "brand": "Open MCP Bazaar",
+      "brand_sub": "static edition",
+      "skip": "Skip to the catalog",
+      "nav_catalog": "Servers",
+      "nav_how": "Install",
+      "nav_compare": "Vs. hosted",
+      "search_ph": "Search servers or tools…",
+      "search_label": "Search servers and tools",
+      "search_kbd": "Ctrl",
+      "theme": "Toggle theme",
+      "lang": "فارسی",
+      "hero_eyebrow": "No account · no router · keys never leave the browser",
+      "hero_h1": "The whole bazaar, running on your machine.",
+      "hero_sub": "72 servers and 896 tools that connect Claude, Cursor and other coding assistants to Digikala, Divar, Torob and the Iranian web. One HTML file that opens offline; API keys never leave your browser.",
+      "cta_browse": "Browse servers",
+      "cta_config": "Build a config",
+      "stat_servers": "servers",
+      "stat_tools": "tools",
+      "stat_cats": "categories",
+      "stat_network": "network calls",
+      "console_label": "install preview",
+      "console_cmd": "uvx digikala-mcp",
+      "console_ok": "23 tools ready; stdio connection established.",
+      "console_ask": "Now ask in Claude: “cheapest laptop with 16 GB RAM?”",
+      "catalog_title": "Servers",
+      "catalog_sub": "Open a card to see its tools, or add it straight to a config.",
+      "filter_all": "All",
+      "sort_label": "Sort",
+      "sort_default": "Suggested",
+      "sort_tools": "Most tools",
+      "sort_name": "Name",
+      "count": "{n} servers · {t} tools",
+      "count_filtered": "{n} of {all} servers · {t} tools",
+      "empty_title": "Nothing matches “{q}”.",
+      "empty_body": "Try another spelling, or drop the category filter. Search covers server names, package names, descriptions and tool names.",
+      "empty_clear": "Clear search",
+      "tools_btn": "{n} tools",
+      "tools_hide": "Hide tools",
+      "add_btn": "Add to config",
+      "added_btn": "In config",
+      "install_copy": "Copy install command",
+      "copied": "Copied",
+      "env_need": "Needs: {names}",
+      "env_optional": "Optional: {names}",
+      "env_none": "No key or env vars",
+      "readonly_yes": "Read-only",
+      "readonly_no": "Has writes",
+      "open_repo": "Repository on GitHub",
+      "open_site": "Service website",
+      "hosted_tag": "Hosted",
+      "dock_count": "{n} selected",
+      "dock_build": "Build config",
+      "dock_clear": "Clear",
+      "dialog_title": "Connection config",
+      "dialog_sub": "Built in your browser only — the config is never sent or stored. Just your selections are remembered in this browser.",
+      "dialog_client": "Client",
+      "dialog_copy": "Copy config",
+      "dialog_download": "Download file",
+      "dialog_path": "Save to",
+      "dialog_secret": "Replace <YOUR_KEY> with your own key; it stays in this file.",
+      "dialog_empty": "No servers selected yet. Add some from the list.",
+      "how_title": "Install in three steps",
+      "how_sub": "Install once, then just ask in Persian.",
+      "how_1_t": "Install uv",
+      "how_1_b": "The Python package runner; one command, once.",
+      "how_2_t": "Pick a server",
+      "how_2_b": "Every installable card has a uvx command; the two hosted servers expose a URL instead and do not install locally.",
+      "how_3_t": "Connect your client",
+      "how_3_b": "Use “Build config” for a ready file for Claude Desktop, Claude Code, Cursor, VS Code or Windsurf.",
+      "compare_title": "What this edition changes",
+      "compare_sub": "Same catalog, no middleman. Comparison uses the hosted site's own description of its router.",
+      "compare_col_free": "This edition (static)",
+      "compare_col_hosted": "Hosted router",
+      "compare_r1": "Account",
+      "compare_r1_free": "Not needed",
+      "compare_r1_hosted": "Required",
+      "compare_r2": "Where servers run",
+      "compare_r2_free": "On your machine (uvx)",
+      "compare_r2_hosted": "On the router's servers",
+      "compare_r3": "API keys",
+      "compare_r3_free": "Pasted into a local command only",
+      "compare_r3_hosted": "Stored encrypted in your account",
+      "compare_r4": "Cost",
+      "compare_r4_free": "Free and inspectable",
+      "compare_r4_hosted": "Per the hosted site's terms",
+      "compare_r5": "Network dependence",
+      "compare_r5_free": "Only to install and to call the service",
+      "compare_r5_hosted": "Always depends on the router",
+      "footer_note": "The catalog and tool summaries are read from the public iran-mcp repository. Servers belong to their authors; this page is a free, static view of that public data.",
+      "footer_data": "Public data · 72 servers · 896 tools",
+      "footer_built": "Built static; no analytics, no tracking.",
+      "dialog_close": "Close",
+      "toast_copied": "Copied to clipboard",
+      "toast_downloaded": "Config downloaded",
+      "no_js": "This page needs JavaScript for search and config building.",
+      "footer_scope": "This edition covers the server catalog only; written Skills are not included.",
+      "remote_copy": "Copy server URL",
+      "remote_only": "Hosted server; no local install",
+      "auth_label": "Auth",
+      "dialog_path_menu": "Where to find it"
+    }
+  },
+  "servers": {
+    "snapp-mcp": [
+      "اسنپ‌فود و اسنپ‌مارکت",
+      "جست‌وجوی غذا و خرید روزانه، مقایسهٔ قیمت و پیشنهادهای فودپارتی."
+    ],
+    "okala-mcp": [
+      "اوکالا",
+      "فروشگاه‌های آنلاین نزدیک شما، مقایسهٔ قیمت و سبد؛ ورود اختیاری با رمز یک‌بارمصرف."
+    ],
+    "tapsifood-mcp": [
+      "تپسی‌فود",
+      "جست‌وجوی غذا و رستوران نزدیک با قیمت و زمان تحویل."
+    ],
+    "digikala-mcp": [
+      "دیجی‌کالا",
+      "جست‌وجوی کالا با فیلتر، بهترین انتخاب در بودجه، مقایسهٔ فروشنده و تاریخچهٔ قیمت."
+    ],
+    "technolife-mcp": [
+      "تکنولایف",
+      "کالای دیجیتال؛ مقایسهٔ فروشنده‌ها و قیمت نقدی و اقساطی."
+    ],
+    "masterkala-mcp": [
+      "مسترکالا",
+      "گجت و لوازم جانبی با قیمت و مشخصات."
+    ],
+    "baneh-mcp": [
+      "بانه",
+      "لوازم خانگی و تلویزیون؛ ارزان‌ترین قیمت موجود و برندها."
+    ],
+    "torob-mcp": [
+      "ترب",
+      "مقایسهٔ قیمت میان فروشگاه‌های ایرانی و تاریخچهٔ قیمت."
+    ],
+    "basalam-mcp": [
+      "باسلام",
+      "جست‌وجوی محصولات و ارزان‌ترین پیشنهاد فروشندگان."
+    ],
+    "emalls-ir-mcp": [
+      "ایمالز",
+      "مقایسهٔ قیمت و پیشنهاد فروشگاه‌ها در ایمالز."
+    ],
+    "mobile-ir-mcp": [
+      "موبایل‌ایر",
+      "مشخصات گوشی، قیمت فروشگاه‌ها و تاریخچهٔ قیمت."
+    ],
+    "zoomit-mcp": [
+      "زومیت",
+      "مشخصات گوشی، لپ‌تاپ و کارت گرافیک همراه قیمت بازار."
+    ],
+    "khanoumi-mcp": [
+      "خانومی",
+      "لوازم آرایشی و عطر؛ رنگ‌ها، نظرات و پیشنهادها."
+    ],
+    "asalbanoo-mcp": [
+      "عسل بانو",
+      "محصولات پوست و مو، تنوع‌ها و تخفیف‌ها."
+    ],
+    "shopino-mcp": [
+      "شاپینو",
+      "پوشاک از هزاران فروشگاه؛ سایز، موجودی و امتیاز فروشگاه."
+    ],
+    "banimode-mcp": [
+      "بانی‌مد",
+      "مد و پوشاک؛ مقایسهٔ قیمت، سایزهای موجود و نظرات."
+    ],
+    "divar-mcp": [
+      "دیوار",
+      "جست‌وجوی آگهی در هر شهر، مقایسه و قیمت‌یابی؛ دو ابزار حافظهٔ محلی دارند."
+    ],
+    "sheypoor-mcp": [
+      "شیپور",
+      "آگهی‌های خرید و فروش، جزئیات آگهی و نمودار قیمت."
+    ],
+    "bama-ir-mcp": [
+      "باما",
+      "آگهی خودرو، قیمت بازار و لیست قیمت خودروهای صفر."
+    ],
+    "karnameh-mcp": [
+      "کارنامه",
+      "آگهی خودروی دست‌دوم، مشخصات و تاریخچهٔ قیمت."
+    ],
+    "hamrah-mechanic-mcp": [
+      "همراه مکانیک",
+      "قیمت روز خودرو، آگهی‌های دست‌دوم و هزینهٔ کارشناسی."
+    ],
+    "otaghak-mcp": [
+      "اتاقک",
+      "ویلا و اقامتگاه؛ موجودی و قیمت دقیق برای هر تاریخ."
+    ],
+    "jabama-mcp": [
+      "جاباما",
+      "ویلا و سوئیت با قیمت نهایی، تور و بلیت رویداد."
+    ],
+    "mrbilit-mcp": [
+      "مستربلیت",
+      "ارزان‌ترین پرواز، قطار، اتوبوس و هتل با قواعد کنسلی."
+    ],
+    "flytoday-mcp": [
+      "فلایت‌تودی",
+      "پرواز داخلی و خارجی، قطار، اتوبوس و هتل با قیمت تومانی."
+    ],
+    "alibaba-ir-mcp": [
+      "علی‌بابا",
+      "بلیت قطار، اتوبوس، پرواز و اقامت با قیمت و ظرفیت."
+    ],
+    "eghamat24-mcp": [
+      "اقامت ۲۴",
+      "هتل، قیمت اتاق، تخفیف‌ها و نظرات مهمان‌ها."
+    ],
+    "neshan-mcp": [
+      "نشان",
+      "جست‌وجوی مکان و مسیر با API نشان؛ نیاز به کلید."
+    ],
+    "balad-mcp": [
+      "بلد",
+      "جست‌وجوی مکان، آب‌وهوا و مسیریابی؛ بدون کلید."
+    ],
+    "paziresh24-mcp": [
+      "پذیرش۲۴",
+      "پزشک، تعرفهٔ ویزیت، نظرات و نوبت‌های خالی."
+    ],
+    "doctoreto-mcp": [
+      "دکترتو",
+      "جست‌وجوی پزشک و مرکز درمانی، تعرفه و نوبت خالی."
+    ],
+    "exiryab-mcp": [
+      "اکسیریاب",
+      "جست‌وجوی پزشک بر اساس نام، شهر و تخصص؛ سرور سراسری اکسیریاب."
+    ],
+    "darukade-mcp": [
+      "داروکده",
+      "داروخانهٔ آنلاین؛ جست‌وجوی محصول، قیمت و موجودی."
+    ],
+    "taaghche-mcp": [
+      "طاقچه",
+      "کتاب الکترونیکی و صوتی؛ جست‌وجو، دسته‌ها و قیمت."
+    ],
+    "fidibo-mcp": [
+      "فیدیبو",
+      "کتاب صوتی و الکترونیکی؛ مقایسهٔ قیمت و پیشنهادها."
+    ],
+    "30book-mcp": [
+      "۳۰بوک",
+      "خرید کتاب چاپی با مقایسهٔ قیمت و موجودی."
+    ],
+    "iranketab-mcp": [
+      "ایران‌کتاب",
+      "کتاب‌های فارسی و ترجمه‌ها با قیمت و موجودی."
+    ],
+    "maktabkhooneh-mcp": [
+      "مکتب‌خونه",
+      "دوره‌های آنلاین فارسی؛ جست‌وجو، سرفصل و قیمت."
+    ],
+    "faradars-mcp": [
+      "فرادرس",
+      "جست‌وجوی دوره، سرفصل، مدرس و قیمت."
+    ],
+    "jobinja-mcp": [
+      "جابینجا",
+      "آگهی‌های استخدام، جزئیات آگهی و شرکت."
+    ],
+    "jobvision-mcp": [
+      "جاب‌ویژن",
+      "جست‌وجوی آگهی استخدام، شرکت و حقوق."
+    ],
+    "irantalent-mcp": [
+      "ایران‌تلنت",
+      "جست‌وجوی شغل، آگهی، شرکت و نظرات کارمندان."
+    ],
+    "quera-mcp": [
+      "کوئرا",
+      "آگهی استخدام برنامه‌نویسی، مسابقه‌ها و دوره‌ها."
+    ],
+    "ponisha-mcp": [
+      "پونیشا",
+      "پروژه‌های فریلنسری، پیشنهادها و کارفرماها."
+    ],
+    "karlancer-mcp": [
+      "کارلنسر",
+      "پروژه‌های فریلنسری و پیشنهادهای مالی."
+    ],
+    "iran-apps-mcp": [
+      "کافه‌بازار و مایکت",
+      "جست‌وجوی اپ، مقایسهٔ نسخه و امتیاز در دو استور ایرانی."
+    ],
+    "iran-downloads-mcp": [
+      "سافت۹۸، پی۳۰دانلود، دانلودلی",
+      "جست‌وجوی نرم‌افزار و بازی؛ فقط متادیتا، بدون لینک دانلود."
+    ],
+    "iran-cloud-status-mcp": [
+      "وضعیت ابرهای ایرانی",
+      "وضعیت زندهٔ سرویس‌های ابری، رخدادها، تعمیرات و قیمت‌ها."
+    ],
+    "tgju-mcp": [
+      "تجی‌آیو",
+      "قیمت لحظه‌ای دلار، یورو، طلا، سکه، ارز دیجیتال و کالا."
+    ],
+    "iran-crypto-mcp": [
+      "صرافی‌های ارز دیجیتال",
+      "قیمت و دفتر سفارش از نوبیتکس، والکس، بیت‌پین، رمزینکس، تبدیل و بیشتر."
+    ],
+    "milligold-mcp": [
+      "میلی‌گلد",
+      "قیمت زندهٔ طلای ۱۸ عیار به ریال و تومان؛ روزانه و هفتگی."
+    ],
+    "iran-gold-mcp": [
+      "قیمت طلای ایران",
+      "طلای ۱۸ عیار از میلی‌گلد، وال‌گلد، ملی‌گلد و داریک."
+    ],
+    "tsetmc-mcp": [
+      "بورس تهران",
+      "قیمت سهام، پرمعامله‌ترین‌ها، دفتر سفارش، شاخص‌ها و معاملات حقیقی و حقوقی."
+    ],
+    "codal-mcp": [
+      "کدال",
+      "جست‌وجوی اطلاعیه‌های ناشران، صورت‌های مالی، EPS و گزارش ماهانه."
+    ],
+    "ifb-mcp": [
+      "فرابورس",
+      "بازدهٔ اوراق، اوراق خزانه، عرضه‌های اولیه و اطلاعات ناشران."
+    ],
+    "fipiran-mcp": [
+      "صندوق‌های سرمایه‌گذاری",
+      "صندوق‌ها و ETF‌ها؛ ارزش خالص، بازده و اندازه."
+    ],
+    "ime-mcp": [
+      "بورس کالای ایران",
+      "معاملات فیزیکی، عرضه و تقاضا و قیمت کالاها."
+    ],
+    "cbi-mcp": [
+      "بانک مرکزی",
+      "نرخ‌های رسمی ارز، تورم و سیاست پولی."
+    ],
+    "amar-mcp": [
+      "مرکز آمار ایران",
+      "تورم، بیکاری، جمعیت و جدول‌های آماری."
+    ],
+    "iran-news-mcp": [
+      "خبرگزاری‌های ایرانی",
+      "سرخط و متن کامل خبر از مهر، خبرآنلاین، همشهری، تابناک و بیشتر."
+    ],
+    "varzesh3-mcp": [
+      "ورزش۳",
+      "نتایج زنده، جدول لیگ، برنامهٔ بازی‌ها و اخبار ورزشی."
+    ],
+    "gamefa-mcp": [
+      "گیمفا",
+      "اخبار و بررسی بازی و فیلم با امتیاز."
+    ],
+    "iran-vod-mcp": [
+      "فیلیمو و نماوا",
+      "جست‌وجوی فیلم و سریال، جزئیات، قسمت‌ها و ژانرها."
+    ],
+    "time-ir-mcp": [
+      "تایم‌ایر",
+      "تاریخ شمسی، میلادی و قمری، تعطیلات و مناسبت‌ها."
+    ],
+    "iran-quake-mcp": [
+      "زلزلهٔ ایران",
+      "آخرین زلزله‌ها، جست‌وجو، بزرگ‌ترین رخدادها و جزئیات."
+    ],
+    "qavanin-mcp": [
+      "قوانین",
+      "جست‌وجو در ۱۶۸ هزار قانون، آیین‌نامه، رأی و تاریخچهٔ قوانین."
+    ],
+    "rrk-mcp": [
+      "روزنامهٔ رسمی",
+      "قوانین، مقررات و آرای دادگاه‌ها از روزنامهٔ رسمی."
+    ],
+    "iran-tax-mcp": [
+      "سازمان امور مالیاتی",
+      "شناسهٔ کالا، ارزش افزوده، کد فعالیت و خدمات مالیاتی."
+    ],
+    "payping-mcp": [
+      "پی‌پینگ",
+      "موجودی، فروش، تسویه و فاکتورها؛ ساخت مشتری، لینک پرداخت و کد تخفیف."
+    ],
+    "bale-mcp": [
+      "بله",
+      "خواندن و فرستادن پیام و فایل با ربات بله؛ نیاز به توکن ربات."
+    ],
+    "pasavard-mcp": [
+      "پساورد",
+      "لیست قیمت دیجی‌کالا و اسنپ‌شاپ به‌صورت ساعتی؛ سرور میزبانی‌شدهٔ شخص ثالث."
+    ],
+    "swapwallet-mcp": [
+      "SwapWallet",
+      "کیف پول ارز دیجیتال به‌صورت سرور میزبانی‌شده؛ کد آن قابل بازبینی نیست."
+    ]
+  }
+}
